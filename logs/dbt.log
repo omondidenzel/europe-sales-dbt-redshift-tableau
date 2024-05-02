@@ -1,0 +1,29 @@
+[0m20:58:26.930081 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102d3a040>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10481b190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104859d60>]}
+
+
+============================== 20:58:26.932788 | 79288d20-e87b-470c-8368-4894a2bcba91 ==============================
+[0m20:58:26.932788 [info ] [MainThread]: Running with dbt=1.7.13
+[0m20:58:26.933159 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/omondidenzel/.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt init', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m20:58:34.344879 [debug] [MainThread]: Starter project path: /Users/omondidenzel/Desktop/DENZEL/DATA-ENGINEERING/DE/venv/lib/python3.9/site-packages/dbt/include/starter_project
+[0m20:58:34.358732 [info ] [MainThread]: 
+Your new dbt project "data_pipeline" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m20:58:34.359611 [info ] [MainThread]: Setting up your profile.
+[0m21:00:39.578135 [info ] [MainThread]: Profile data_pipeline written to /Users/omondidenzel/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m21:00:39.582383 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 132.6873, "process_user_time": 1.221202, "process_kernel_time": 0.175901, "process_mem_max_rss": "93323264", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m21:00:39.583195 [debug] [MainThread]: Command `dbt init` succeeded at 21:00:39.583040 after 132.69 seconds
+[0m21:00:39.583672 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102d3a040>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104ad77f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104859850>]}
+[0m21:00:39.584117 [debug] [MainThread]: Flushing usage events

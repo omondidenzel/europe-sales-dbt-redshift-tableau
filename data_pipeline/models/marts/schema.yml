@@ -1,0 +1,9 @@
+version: 2
+
+models:
+  - name: mart_europe
+    description: Pulling from stg_europe
+    columns:
+      - name: country
+        tests:
+          - not_null

@@ -1,0 +1,5 @@
+pandas
+boto
+s3fs
+python-dotenv
+diagram
