@@ -2,6 +2,7 @@ version: 2
 
 models:
   - name: stg_europe
+  description: Pulling from source
     columns:
       - name: country
         tests:

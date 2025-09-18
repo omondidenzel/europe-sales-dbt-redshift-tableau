@@ -42,3 +42,7 @@ from (
 )
 )
 
+-- Notes: Dive into big data
+    -- Orchestration 
+    -- Databricks/Azure data - Spark e.t.c.
+    -- 
